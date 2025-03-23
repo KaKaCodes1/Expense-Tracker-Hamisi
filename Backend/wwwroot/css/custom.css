@@ -239,6 +239,7 @@ label {
     background-color: #000;
     margin-bottom: 10px;
 }
+
 .cancel-button {
     width: 100%;
     height: 60px;
@@ -259,6 +260,8 @@ label {
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     background-color: #f0f0f0;
     margin-bottom: 10px;
+    max-width: 100%;
+    overflow-x: auto;
 }
 
 .table-title {
@@ -285,7 +288,7 @@ th, td {
 th {
     font-weight: bold;
     color: #333;
-}
+} 
 
 .actions {
     display: flex;
@@ -378,7 +381,26 @@ th {
     color: #270dba;
     text-decoration: none;
 }
-
+/*Admin panel*/
+.add-user-button {
+    width: 20%;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: "K2D", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: #000;
+    margin-bottom: 20px;
+}
+.adminpnl-title {
+    font-family: "K2D", sans-serif;
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+}
 /*Footer*/
 footer{
     top:0;
@@ -409,4 +431,10 @@ footer{
     .edit-expense-form .myform-row .myform-group {
         gap: 1px;
     }
-}
+    .add-user-button {
+        width: 30%;
+    }
+        /*    .dashboard-tblrow .td {
+        overflow: auto;
+    }*/
+    }
