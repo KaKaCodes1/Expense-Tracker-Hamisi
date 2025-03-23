@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "5RnsXUa7Eo+833rAXe78lRCEM+EPxNgY4IF0ZQdWzHk=",
+=======
+  "Hash": "DDY+IBDJEzyUs6q4EJTuwWFWCy5mGwsLBJoWSbBMwYg=",
+>>>>>>> ba856eff6fd7335431a8f5bbd4c9e8c31989bf89
   "Source": "Backend",
   "BasePath": "_content/Backend",
   "Mode": "Default",
@@ -1151,12 +1155,20 @@
       "OriginalItemSpec": "C:\\Users\\USER\\Desktop\\.NET Learning\\Expense-Tracker-Hamisi\\Backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\USER\\Desktop\\.NET Learning\\Expense-Tracker-Hamisi\\Backend\\obj\\Debug\\net9.0\\compressed\\taivfxw7f4-7ln2euehhi.gz",
+=======
+      "Identity": "C:\\Users\\Z.BOOK\\OneDrive\\Documents\\CMT307 .Net Programming\\Expense-Tracker\\Backend\\obj\\Debug\\net9.0\\compressed\\taivfxw7f4-dzhk2oi089.gz",
+>>>>>>> ba856eff6fd7335431a8f5bbd4c9e8c31989bf89
       "SourceId": "Backend",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\USER\\Desktop\\.NET Learning\\Expense-Tracker-Hamisi\\Backend\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Backend",
+<<<<<<< HEAD
       "RelativePath": "js/custom#[.{fingerprint=7ln2euehhi}]?.js.gz",
+=======
+      "RelativePath": "js/custom#[.{fingerprint=dzhk2oi089}]?.js.gz",
+>>>>>>> ba856eff6fd7335431a8f5bbd4c9e8c31989bf89
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1165,8 +1177,13 @@
       "RelatedAsset": "C:\\Users\\USER\\Desktop\\.NET Learning\\Expense-Tracker-Hamisi\\Backend\\wwwroot\\js\\custom.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
+<<<<<<< HEAD
       "Fingerprint": "iu6nzaasc4",
       "Integrity": "ao1NQpxRcx9GHnYkjItLS0OtVSD2YpXjIPnn7EX5kh4=",
+=======
+      "Fingerprint": "1ozt9vtcs9",
+      "Integrity": "L1FqVimERQioj5B/uHYYedf4iJVTK/DT4O/RvLveoIw=",
+>>>>>>> ba856eff6fd7335431a8f5bbd4c9e8c31989bf89
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\USER\\Desktop\\.NET Learning\\Expense-Tracker-Hamisi\\Backend\\wwwroot\\js\\custom.js"
@@ -1522,8 +1539,13 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< HEAD
       "Fingerprint": "7ln2euehhi",
       "Integrity": "6wkmiSnKuYMBwyNcyJKuGjltfg4OcCZZqTAVWWMJcFs=",
+=======
+      "Fingerprint": "dzhk2oi089",
+      "Integrity": "CVosvgG1TdhLYO4x73ANEl1674kobsIsOHOTvpZAMTI=",
+>>>>>>> ba856eff6fd7335431a8f5bbd4c9e8c31989bf89
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\custom.js"
@@ -4302,13 +4324,22 @@
       ]
     },
     {
+<<<<<<< HEAD
       "Route": "js/custom.7ln2euehhi.js",
       "AssetFile": "C:\\Users\\USER\\Desktop\\.NET Learning\\Expense-Tracker-Hamisi\\Backend\\obj\\Debug\\net9.0\\compressed\\taivfxw7f4-7ln2euehhi.gz",
+=======
+      "Route": "js/custom.dzhk2oi089.js",
+      "AssetFile": "C:\\Users\\Z.BOOK\\OneDrive\\Documents\\CMT307 .Net Programming\\Expense-Tracker\\Backend\\obj\\Debug\\net9.0\\compressed\\taivfxw7f4-dzhk2oi089.gz",
+>>>>>>> ba856eff6fd7335431a8f5bbd4c9e8c31989bf89
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
+<<<<<<< HEAD
           "Quality": "0.000574052813"
+=======
+          "Quality": "0.000564334086"
+>>>>>>> ba856eff6fd7335431a8f5bbd4c9e8c31989bf89
         }
       ],
       "ResponseHeaders": [
@@ -4318,6 +4349,7 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "1741"
         },
         {
@@ -4327,6 +4359,17 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 14 Mar 2025 16:58:52 GMT"
+=======
+          "Value": "1771"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"L1FqVimERQioj5B/uHYYedf4iJVTK/DT4O/RvLveoIw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 20:11:09 GMT"
+>>>>>>> ba856eff6fd7335431a8f5bbd4c9e8c31989bf89
         },
         {
           "Name": "Cache-Control",
@@ -4346,13 +4389,21 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "W/\"6wkmiSnKuYMBwyNcyJKuGjltfg4OcCZZqTAVWWMJcFs=\""
+=======
+          "Value": "W/\"CVosvgG1TdhLYO4x73ANEl1674kobsIsOHOTvpZAMTI=\""
+>>>>>>> ba856eff6fd7335431a8f5bbd4c9e8c31989bf89
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
+<<<<<<< HEAD
           "Value": "7ln2euehhi"
+=======
+          "Value": "dzhk2oi089"
+>>>>>>> ba856eff6fd7335431a8f5bbd4c9e8c31989bf89
         },
         {
           "Name": "label",
@@ -4360,13 +4411,22 @@
         },
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-6wkmiSnKuYMBwyNcyJKuGjltfg4OcCZZqTAVWWMJcFs="
+=======
+          "Value": "sha256-CVosvgG1TdhLYO4x73ANEl1674kobsIsOHOTvpZAMTI="
+>>>>>>> ba856eff6fd7335431a8f5bbd4c9e8c31989bf89
         }
       ]
     },
     {
+<<<<<<< HEAD
       "Route": "js/custom.7ln2euehhi.js",
       "AssetFile": "C:\\Users\\USER\\Desktop\\.NET Learning\\Expense-Tracker-Hamisi\\Backend\\wwwroot\\js\\custom.js",
+=======
+      "Route": "js/custom.dzhk2oi089.js",
+      "AssetFile": "C:\\Users\\Z.BOOK\\OneDrive\\Documents\\CMT307 .Net Programming\\Expense-Tracker\\Backend\\wwwroot\\js\\custom.js",
+>>>>>>> ba856eff6fd7335431a8f5bbd4c9e8c31989bf89
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4375,7 +4435,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "8589"
+=======
+          "Value": "8012"
+>>>>>>> ba856eff6fd7335431a8f5bbd4c9e8c31989bf89
         },
         {
           "Name": "Content-Type",
@@ -4383,11 +4447,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"6wkmiSnKuYMBwyNcyJKuGjltfg4OcCZZqTAVWWMJcFs=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Fri, 14 Mar 2025 16:58:52 GMT"
+=======
+          "Value": "\"CVosvgG1TdhLYO4x73ANEl1674kobsIsOHOTvpZAMTI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 20:11:09 GMT"
+>>>>>>> ba856eff6fd7335431a8f5bbd4c9e8c31989bf89
         },
         {
           "Name": "Cache-Control",
@@ -4397,7 +4469,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
+<<<<<<< HEAD
           "Value": "7ln2euehhi"
+=======
+          "Value": "dzhk2oi089"
+>>>>>>> ba856eff6fd7335431a8f5bbd4c9e8c31989bf89
         },
         {
           "Name": "label",
@@ -4405,13 +4481,22 @@
         },
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-6wkmiSnKuYMBwyNcyJKuGjltfg4OcCZZqTAVWWMJcFs="
+=======
+          "Value": "sha256-CVosvgG1TdhLYO4x73ANEl1674kobsIsOHOTvpZAMTI="
+>>>>>>> ba856eff6fd7335431a8f5bbd4c9e8c31989bf89
         }
       ]
     },
     {
+<<<<<<< HEAD
       "Route": "js/custom.7ln2euehhi.js.gz",
       "AssetFile": "C:\\Users\\USER\\Desktop\\.NET Learning\\Expense-Tracker-Hamisi\\Backend\\obj\\Debug\\net9.0\\compressed\\taivfxw7f4-7ln2euehhi.gz",
+=======
+      "Route": "js/custom.dzhk2oi089.js.gz",
+      "AssetFile": "C:\\Users\\Z.BOOK\\OneDrive\\Documents\\CMT307 .Net Programming\\Expense-Tracker\\Backend\\obj\\Debug\\net9.0\\compressed\\taivfxw7f4-dzhk2oi089.gz",
+>>>>>>> ba856eff6fd7335431a8f5bbd4c9e8c31989bf89
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4420,7 +4505,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "1741"
+=======
+          "Value": "1771"
+>>>>>>> ba856eff6fd7335431a8f5bbd4c9e8c31989bf89
         },
         {
           "Name": "Content-Type",
@@ -4428,11 +4517,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"ao1NQpxRcx9GHnYkjItLS0OtVSD2YpXjIPnn7EX5kh4=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Fri, 14 Mar 2025 16:58:52 GMT"
+=======
+          "Value": "\"L1FqVimERQioj5B/uHYYedf4iJVTK/DT4O/RvLveoIw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 20:11:09 GMT"
+>>>>>>> ba856eff6fd7335431a8f5bbd4c9e8c31989bf89
         },
         {
           "Name": "Cache-Control",
@@ -4450,7 +4547,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
+<<<<<<< HEAD
           "Value": "7ln2euehhi"
+=======
+          "Value": "dzhk2oi089"
+>>>>>>> ba856eff6fd7335431a8f5bbd4c9e8c31989bf89
         },
         {
           "Name": "label",
@@ -4458,18 +4559,30 @@
         },
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-ao1NQpxRcx9GHnYkjItLS0OtVSD2YpXjIPnn7EX5kh4="
+=======
+          "Value": "sha256-L1FqVimERQioj5B/uHYYedf4iJVTK/DT4O/RvLveoIw="
+>>>>>>> ba856eff6fd7335431a8f5bbd4c9e8c31989bf89
         }
       ]
     },
     {
       "Route": "js/custom.js",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\USER\\Desktop\\.NET Learning\\Expense-Tracker-Hamisi\\Backend\\obj\\Debug\\net9.0\\compressed\\taivfxw7f4-7ln2euehhi.gz",
+=======
+      "AssetFile": "C:\\Users\\Z.BOOK\\OneDrive\\Documents\\CMT307 .Net Programming\\Expense-Tracker\\Backend\\obj\\Debug\\net9.0\\compressed\\taivfxw7f4-dzhk2oi089.gz",
+>>>>>>> ba856eff6fd7335431a8f5bbd4c9e8c31989bf89
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
+<<<<<<< HEAD
           "Quality": "0.000574052813"
+=======
+          "Quality": "0.000564334086"
+>>>>>>> ba856eff6fd7335431a8f5bbd4c9e8c31989bf89
         }
       ],
       "ResponseHeaders": [
@@ -4479,6 +4592,7 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "1741"
         },
         {
@@ -4488,6 +4602,17 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 14 Mar 2025 16:58:52 GMT"
+=======
+          "Value": "1771"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"L1FqVimERQioj5B/uHYYedf4iJVTK/DT4O/RvLveoIw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 20:11:09 GMT"
+>>>>>>> ba856eff6fd7335431a8f5bbd4c9e8c31989bf89
         },
         {
           "Name": "Cache-Control",
@@ -4507,13 +4632,21 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "W/\"6wkmiSnKuYMBwyNcyJKuGjltfg4OcCZZqTAVWWMJcFs=\""
+=======
+          "Value": "W/\"CVosvgG1TdhLYO4x73ANEl1674kobsIsOHOTvpZAMTI=\""
+>>>>>>> ba856eff6fd7335431a8f5bbd4c9e8c31989bf89
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-6wkmiSnKuYMBwyNcyJKuGjltfg4OcCZZqTAVWWMJcFs="
+=======
+          "Value": "sha256-CVosvgG1TdhLYO4x73ANEl1674kobsIsOHOTvpZAMTI="
+>>>>>>> ba856eff6fd7335431a8f5bbd4c9e8c31989bf89
         }
       ]
     },
@@ -4528,7 +4661,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "8589"
+=======
+          "Value": "8012"
+>>>>>>> ba856eff6fd7335431a8f5bbd4c9e8c31989bf89
         },
         {
           "Name": "Content-Type",
@@ -4536,11 +4673,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"6wkmiSnKuYMBwyNcyJKuGjltfg4OcCZZqTAVWWMJcFs=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Fri, 14 Mar 2025 16:58:52 GMT"
+=======
+          "Value": "\"CVosvgG1TdhLYO4x73ANEl1674kobsIsOHOTvpZAMTI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 20:11:09 GMT"
+>>>>>>> ba856eff6fd7335431a8f5bbd4c9e8c31989bf89
         },
         {
           "Name": "Cache-Control",
@@ -4550,13 +4695,21 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-6wkmiSnKuYMBwyNcyJKuGjltfg4OcCZZqTAVWWMJcFs="
+=======
+          "Value": "sha256-CVosvgG1TdhLYO4x73ANEl1674kobsIsOHOTvpZAMTI="
+>>>>>>> ba856eff6fd7335431a8f5bbd4c9e8c31989bf89
         }
       ]
     },
     {
       "Route": "js/custom.js.gz",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\USER\\Desktop\\.NET Learning\\Expense-Tracker-Hamisi\\Backend\\obj\\Debug\\net9.0\\compressed\\taivfxw7f4-7ln2euehhi.gz",
+=======
+      "AssetFile": "C:\\Users\\Z.BOOK\\OneDrive\\Documents\\CMT307 .Net Programming\\Expense-Tracker\\Backend\\obj\\Debug\\net9.0\\compressed\\taivfxw7f4-dzhk2oi089.gz",
+>>>>>>> ba856eff6fd7335431a8f5bbd4c9e8c31989bf89
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4565,7 +4718,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "1741"
+=======
+          "Value": "1771"
+>>>>>>> ba856eff6fd7335431a8f5bbd4c9e8c31989bf89
         },
         {
           "Name": "Content-Type",
@@ -4573,11 +4730,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"ao1NQpxRcx9GHnYkjItLS0OtVSD2YpXjIPnn7EX5kh4=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Fri, 14 Mar 2025 16:58:52 GMT"
+=======
+          "Value": "\"L1FqVimERQioj5B/uHYYedf4iJVTK/DT4O/RvLveoIw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 20:11:09 GMT"
+>>>>>>> ba856eff6fd7335431a8f5bbd4c9e8c31989bf89
         },
         {
           "Name": "Cache-Control",
@@ -4595,7 +4760,11 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-ao1NQpxRcx9GHnYkjItLS0OtVSD2YpXjIPnn7EX5kh4="
+=======
+          "Value": "sha256-L1FqVimERQioj5B/uHYYedf4iJVTK/DT4O/RvLveoIw="
+>>>>>>> ba856eff6fd7335431a8f5bbd4c9e8c31989bf89
         }
       ]
     },

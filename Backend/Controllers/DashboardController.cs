@@ -28,8 +28,8 @@ public class DashboardController : Controller
     
 
 
-        var Expenses = _context.Expense.Include(e => e.Category).Where(e => e.Id.ToString() == userId).ToList();
-        var Incomes = _context.Income.Where(e => e.Id.ToString() == userId).ToList();
+        var Expenses = await _context.Expense.Include(e => e.Category).Where(e => e.Id.ToString() == userId).ToListAsync();
+        var Incomes = await _context.Income.Where(e => e.Id.ToString() == userId).ToListAsync();
 
         decimal TotalIncomes = 0;
         decimal TotalExpenses = 0;
@@ -57,10 +57,28 @@ public class DashboardController : Controller
         
     }
 
+    public async Task<IActionResult> CategoriesChartData()
+    {
+        // Group income/expenses by category and sum amounts
+        var categoryData = await _context.Expense
+            .GroupBy(e => e.Category.Name)
+            .Select(g => new 
+            {
+                Category = g.Key,
+                TotalAmount = g.Sum(e => e.Amount)
+            })
+            .ToListAsync();
+
+        return Json(categoryData); // Returns JSON for JavaScript to consume
+
+    }
+
     public async Task<IActionResult> Index()
     {
         string userName = User.Identity.IsAuthenticated ? User.Identity.Name : "Guest";
         var categories = await _context.Categories.ToListAsync();
+        
+        ViewData["chartData"] = await CategoriesChartData();
         ViewData["Categories"] = categories ?? new List<Category>();
         ViewBag.UserName = userName;
 
@@ -88,8 +106,11 @@ public class DashboardController : Controller
         return PartialView("_ExpenseTable", model);
     }
 
-    public IActionResult EditExpenseForm(int Id)
+    public async Task<IActionResult> EditExpenseForm(int Id)
     {   
+        var categories = await _context.Categories.ToListAsync();
+        ViewData["Categories"] = categories ?? new List<Category>();
+    
         var expense = _context.Expense.Find(Id);
             if (expense == null)
             {
@@ -98,8 +119,10 @@ public class DashboardController : Controller
         return PartialView("_EditExpenseForm", expense);
     }
 
-    public IActionResult EditIncomeForm(int Id)
+    public async Task<IActionResult> EditIncomeForm(int Id)
     {
+        var categories = await _context.Categories.ToListAsync();
+        ViewData["Categories"] = categories ?? new List<Category>();
         var income = _context.Income.Find(Id);
         if (income == null)
         {
